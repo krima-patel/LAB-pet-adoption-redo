@@ -262,4 +262,15 @@ for (item of pets) {
 </div>`;
 };
 
-animals.innerHTML = domString;
+// animals.innerHTML = domString;
+renderToDom('#animalCards', domString);
+
+// document.querySelector('filterContainer').addEventListener('click', (e) => {
+// if (e.target.type === "cat") {
+//   animals(pets);
+// } else if (e.target.type === "dog") {
+//   animals(pets);
+// } else if (e.target.type === "dino") {
+//   animals(pets);
+// }
+// });
